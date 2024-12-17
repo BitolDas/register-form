@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <script src="https://kit.fontawesome.com/ea27f8495e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <div class="Form">
+            <form>
+                <div class="inputName">
+                    <i class="fa-solid fa-user"></i> 
+                    <input type="text" placeholder="First Name" class="name">
+
+                    <span class="inputName">
+                        <i class="fa-solid fa-user"></i> 
+                    <input type="text" placeholder="Last Name" class="name">
+                    </span>
+                </div>
+                <div class="inputName">
+                    <i class="fa fa-envelope email"></i>
+                    <input type="email" placeholder="Enter Your E-mail" class="Textname">
+                </div>
+                <div class="inputName">
+                    <i class="fa fa-lock lock"></i>
+                    <input type="password" placeholder="Password" class="Textname">
+                </div>
+                <div class="inputName">
+                    <i class="fa fa-lock lock"></i>
+                    <input type="password" placeholder="Confirm Password" class="Textname">
+                </div>
+                <div class="inputName">
+                    <input type="radio" class="radioButton" name="r1">
+                    <label class="lab">Male</label>
+                    <input type="radio" class="radioButton" name="r1">
+                    <label>Female</label>
+                </div>
+                <div class="inputName">
+                    <select class="country">
+                        <option>Select a country</option>
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>Pakistan</option>
+                        <option>Nepal</option>
+                        <option>China</option>
+                    </select>
+                    <div class="arrows"></div>
+                </div>
+                <div class="inputName">
+                    <input type="checkbox" id="cb" class="checkButton">
+                    <label for="cb" class="check"> I Accept the terms and conditions</label>
+                </div>
+                <div class="inputName">
+                    <input type="submit" class="suButton" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
